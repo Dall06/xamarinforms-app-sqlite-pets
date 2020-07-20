@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:converter="clr-namespace:AppXamarinPets.Converters"
+             mc:Ignorable="d"
+             Title="Pet Detail"
+             x:Class="AppXamarinPets.Views.PetsDetailPage"
+             NavigationPage.HasBackButton="False">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:ImageConverter x:Key="ImageConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancel" Command="{Binding CancelCommand}">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform
+                    x:TypeArguments="ImageSource">
+                    <On
+                        Platform="Android, UWP"
+                        Value="back.png" />
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        
+        <ToolbarItem Text="Map" Command="{Binding MapCommand}">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform
+                    x:TypeArguments="ImageSource">
+                    <On
+                        Platform="Android, UWP"
+                        Value="map.png" />
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+
+        <ToolbarItem Text="Edit" Command="{Binding EditCommand}">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform
+                    x:TypeArguments="ImageSource">
+                    <On
+                        Platform="Android, UWP"
+                        Value="edit.png" />
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+
+        <ToolbarItem Text="Delete" Command="{Binding DeleteCommand}">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform
+                    x:TypeArguments="ImageSource">
+                    <On
+                        Platform="Android, UWP"
+                        Value="delete.png" />
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <ScrollView Margin="20" Padding="10">
+            <StackLayout
+                VerticalOptions="StartAndExpand">
+                <Image
+                    Source="{Binding ImageUrl, Converter={StaticResource ImageConverter}}" />
+                
+                <Label
+                    Text="Name: "
+                    TextColor="White"
+                    FontSize="Subtitle"
+                    FontAttributes="Bold"/>
+                <Label
+                    TextColor="White"
+                    FontSize="Body"
+                    Text="{Binding PetSelected.Name}" />
+
+                <Label
+                    Text="Birth date: "
+                    TextColor="White"
+                    FontSize="Subtitle"
+                    FontAttributes="Bold"/>
+                <Label
+                    TextColor="White"
+                    FontSize="Body"
+                    Text="{Binding PetSelected.BirthDate, StringFormat='{0:MMMM dd, yyyy}'}" />
+
+                <Label
+                    Text="Gender: "
+                    TextColor="White"
+                    FontSize="Subtitle"
+                    FontAttributes="Bold"/>
+                <Label
+                    TextColor="White"
+                    FontSize="Body"
+                    Text="{Binding PetSelected.Gender}" />
+
+                <Label
+                    Text="Dog Breed:"
+                    TextColor="White"
+                    FontSize="Subtitle"
+                    FontAttributes="Bold"/>
+                <Label
+                    TextColor="White"
+                    FontSize="Body"
+                    Text="{Binding PetSelected.DogBreed}" />
+
+                <Label
+                    Text="Weight (Kg):"
+                    TextColor="White"
+                    FontSize="Subtitle"
+                    FontAttributes="Bold"/>
+                <Label
+                    TextColor="White"
+                    FontSize="Body"
+                    Text="{Binding PetSelected.Weight}" />
+
+                <Label
+                    Text="Comments: "
+                    TextColor="White"
+                    FontSize="Subtitle"
+                    FontAttributes="Bold" />
+                <Label
+                    TextColor="White"
+                    FontSize="Body"
+                    Text="{Binding PetSelected.Comments}" />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

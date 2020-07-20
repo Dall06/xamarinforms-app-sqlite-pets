@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DALL08</Machine>
+    <WindowsUser>diego</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
+    <PackageIdentityPublisher>CN=2ecaee8d-0585-409f-b659-6845c80ada67</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>8342DA2EE038056EAE7A4C3F50EFF10846688ABB3B89F29C22B1FEE39DF5F8AC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>fd15463c-762f-4f57-a933-1b4ff7ef8e91_1.0.0.0_x86__rkjhdfef4dmz2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>fd15463c-762f-4f57-a933-1b4ff7ef8e91_rkjhdfef4dmz2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>fd15463c-762f-4f57-a933-1b4ff7ef8e91</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=2ecaee8d-0585-409f-b659-6845c80ada67</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-14T16:35:47.049</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\bin\x86\Debug\AppXamarinPets.UWP.exe">
+      <PackagePath>entrypoint\AppXamarinPets.UWP.exe</PackagePath>
+      <Modified>2020-05-14T16:35:44.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2020-02-28T01:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\sqlite-net-pcl\1.6.292\lib\netstandard1.1\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2019-09-20T08:20:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\sqlitepclraw.bundle_green\1.1.13\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+      <Modified>2019-01-24T21:30:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\sqlitepclraw.bundle_green\1.1.13\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2019-01-24T21:30:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\sqlitepclraw.core\1.1.13\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2019-01-24T21:30:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.13\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2018-12-18T08:23:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.13\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2019-01-24T21:30:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2016-11-30T07:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\xam.plugin.media\5.0.1\lib\uap10.0.16299\Plugin.Media.dll">
+      <PackagePath>Plugin.Media.dll</PackagePath>
+      <Modified>2020-04-02T00:52:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\xamarin.essentials\1.5.3.2\lib\uap10.0.16299\Xamarin.Essentials.dll">
+      <PackagePath>Xamarin.Essentials.dll</PackagePath>
+      <Modified>2020-05-12T05:41:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\xamarin.forms\4.6.0.726\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
+      <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
+      <Modified>2020-04-28T07:01:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\xamarin.forms\4.6.0.726\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
+      <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
+      <Modified>2020-04-28T07:01:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\xamarin.forms\4.6.0.726\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
+      <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
+      <Modified>2020-04-28T07:01:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\xamarin.forms\4.6.0.726\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
+      <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
+      <Modified>2020-04-28T07:01:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\xamarin.forms.maps\4.6.0.726\lib\uap10.0.16299\Xamarin.Forms.Maps.UWP.dll">
+      <PackagePath>Xamarin.Forms.Maps.UWP.dll</PackagePath>
+      <Modified>2020-04-28T07:02:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\xamarin.forms.maps\4.6.0.726\lib\uap10.0.16299\Xamarin.Forms.Maps.dll">
+      <PackagePath>Xamarin.Forms.Maps.dll</PackagePath>
+      <Modified>2020-04-28T07:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\bin\Debug\netstandard2.0\AppXamarinPets.dll">
+      <PackagePath>AppXamarinPets.dll</PackagePath>
+      <Modified>2020-05-14T15:22:02.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2016-11-30T07:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T23:36:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\xamarin.forms\4.6.0.726\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
+      <Modified>2020-04-28T07:01:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\add.png">
+      <PackagePath>add.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:55.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.007</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.009</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.017</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.028</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.034</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.056</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.063</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2020-05-13T01:35:56.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\back.png">
+      <PackagePath>back.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\cancel.png">
+      <PackagePath>cancel.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\delete.png">
+      <PackagePath>delete.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\done.png">
+      <PackagePath>done.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\edit.png">
+      <PackagePath>edit.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\map.png">
+      <PackagePath>map.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\not_found.png">
+      <PackagePath>not_found.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\photo.png">
+      <PackagePath>photo.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.393</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\picture.png">
+      <PackagePath>picture.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\pin.png">
+      <PackagePath>pin.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\pin2.png">
+      <PackagePath>pin2.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.472</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\save.png">
+      <PackagePath>save.png</PackagePath>
+      <Modified>2020-05-14T15:21:35.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-05-13T01:35:56.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\bin\x86\Debug\AppXamarinPets.UWP.xr.xml">
+      <PackagePath>AppXamarinPets.UWP.xr.xml</PackagePath>
+      <Modified>2020-05-13T05:56:29.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2020-05-14T15:42:55.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2020-05-14T15:37:52.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\bin\x86\Debug\MarkerWindow.xbf">
+      <PackagePath>MarkerWindow.xbf</PackagePath>
+      <Modified>2020-05-14T15:37:52.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2019-03-18T23:43:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T22:33:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\diego\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
+      <Modified>2019-12-12T08:48:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2020-05-14T15:42:56.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\bin\x86\Debug\Core\AppXamarinPets.UWP.exe">
+      <PackagePath>AppXamarinPets.UWP.exe</PackagePath>
+      <Modified>2020-05-14T16:35:47.043</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\diego\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx">
+      <Name>Microsoft.UI.Xaml.2.3</Name>
+      <Version>2.31912.11002.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\diego\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\diego\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx">
+      <Name>Microsoft.UI.Xaml.2.3</Name>
+      <Version>2.31912.11002.0</Version>
+      <Architecture>Win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\diego\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\diego\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.3.appx">
+      <Name>Microsoft.UI.Xaml.2.3</Name>
+      <Version>2.31912.11002.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\diego\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\diego\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.3.appx">
+      <Name>Microsoft.UI.Xaml.2.3</Name>
+      <Version>2.31912.11002.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\diego\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\diego\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.3.appx">
+      <Name>Microsoft.UI.Xaml.2.3</Name>
+      <Version>2.31912.11002.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.3, MinVersion = 2.31912.11002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\diego\.nuget\packages\microsoft.ui.xaml\2.3.191211002\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.3.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\diego\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\diego\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\diego\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\diego\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\diego\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\diego\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\diego\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\diego\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\diego\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\diego\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\diego\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.28529.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.28529.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\diego\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.10\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

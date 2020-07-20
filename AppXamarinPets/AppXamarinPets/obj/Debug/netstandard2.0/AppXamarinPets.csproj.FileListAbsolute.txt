@@ -1,0 +1,17 @@
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\bin\Debug\netstandard2.0\AppXamarinPets.deps.json
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\bin\Debug\netstandard2.0\AppXamarinPets.dll
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\AppXamarinPets.csprojAssemblyReference.cache
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\AppXamarinPets.AssemblyInfoInputs.cache
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\AppXamarinPets.AssemblyInfo.cs
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\Views\PetsDetailPage.xaml.g.cs
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\Views\PetsPage.xaml.g.cs
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\bin\Debug\netstandard2.0\ref\AppXamarinPets.dll
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\bin\Debug\netstandard2.0\AppXamarinPets.pdb
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\Views\PetMapPage.xaml.g.cs
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\AppXamarinPets.csproj.CoreCompileInputs.cache
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\XamlC.stamp
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\AppXamarinPets.dll
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\ref\AppXamarinPets.dll
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\AppXamarinPets.pdb
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets\obj\Debug\netstandard2.0\Views\PetEditPage.xaml.g.cs

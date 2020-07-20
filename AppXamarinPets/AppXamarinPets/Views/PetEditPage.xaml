@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:converter="clr-namespace:AppXamarinPets.Converters"
+             mc:Ignorable="d"
+             x:Class="AppXamarinPets.Views.PetEditPage"
+             Title="Pet Editor"
+             NavigationPage.HasBackButton="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:ImageConverter x:Key="ImageConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancel" Command="{Binding CancelCommand}">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform
+                    x:TypeArguments="ImageSource">
+                    <On
+                        Platform="Android, UWP"
+                        Value="back.png" />
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem Text="Guardar" Command="{Binding SaveCommand}">
+            <ToolbarItem.IconImageSource>
+                <OnPlatform
+                    x:TypeArguments="ImageSource">
+                    <On
+                        Platform="Android, UWP"
+                        Value="done.png" />
+                </OnPlatform>
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="Transparent">
+            <Grid Padding="5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Image
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    HeightRequest="150"
+                    WidthRequest="150"
+                    Aspect="AspectFill"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    Source="{Binding ImageUrl, Converter={StaticResource ImageConverter}}" />
+
+                <Grid
+                    Grid.Row="1"
+                    Grid.Column="1">
+                    
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="2*" />
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton
+                        Grid.Column="0"
+                        HeightRequest="35"
+                        Source="photo.png"
+                        BackgroundColor="Transparent"
+                        Command="{Binding TakePictureCommand}" />
+                    <ImageButton
+                        Grid.Column="1"
+                        HeightRequest="35"
+                        Source="picture.png"
+                        BackgroundColor="Transparent"
+                        Command="{Binding SelectPictureCommand}" />
+                </Grid>
+
+                <StackLayout
+                    Grid.Row="2"
+                    Grid.Column="1">
+                    <Label
+                        TextColor="White"
+                        FontSize="Subtitle"
+                        FontAttributes="Bold"
+                        Text="Name" />
+                    <Entry
+                        TextColor="White"
+                        FontSize="Body"
+                        Text="{Binding PetSelected.Name}" />
+
+                    <Label
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="Subtitle"
+                        Text="Birth date" />
+                    <DatePicker
+                        TextColor="White"
+                        FontSize="Body"
+                        MinimumDate="01/01/1960"
+                        MaximumDate="12/31/2025"
+                        Date="{Binding PetSelected.BirthDate}"/>
+
+                    <Label
+                        TextColor="White"
+                        FontSize="Subtitle"
+                        FontAttributes="Bold"
+                        Text="Gender" />
+                    <Entry
+                        TextColor="White"
+                        FontSize="Body"
+                        Text="{Binding PetSelected.Gender}" />
+
+                    <Label
+                        TextColor="White"
+                        FontSize="Subtitle"
+                        FontAttributes="Bold"
+                        Text="Dog Breed" />
+                    <Entry
+                        TextColor="White"
+                        FontSize="Body"
+                        Text="{Binding PetSelected.DogBreed}" />
+
+                    <Label
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="Subtitle"
+                        Text="Weight (Kg)" />
+                    <Entry
+                        TextColor="White"
+                        FontSize="Body"
+                        Text="{Binding PetSelected.Weight}" />
+
+                    <Label
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="Subtitle"
+                        Text="Comments" />
+                    <Editor
+                        HeightRequest="88"
+                        TextColor="White"
+                        FontSize="Body"
+                        Text="{Binding PetSelected.Comments}" />
+
+                    <Label
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="Subtitle"
+                        Text="Longitude" />
+                    <Entry
+                        TextColor="White"
+                        FontSize="Body"
+                        Text="{Binding Longitude}" />
+
+                    <Label
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="Subtitle"
+                        Text="Latitude" />
+                    <Entry
+                        TextColor="White"
+                        FontSize="Body"
+                        Text="{Binding Latitude}" />
+
+                    <Button
+                        Text="Set current location"
+                        BackgroundColor="Transparent"
+                        TextColor="White"
+                        ImageSource="pin2.png"
+                        Command="{Binding GetLocationCommand}" />
+                </StackLayout>
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

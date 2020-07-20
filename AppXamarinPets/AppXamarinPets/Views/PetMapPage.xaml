@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:renderers="clr-namespace:AppXamarinPets.Renderers"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Pet Location"
+             
+             x:Class="AppXamarinPets.Views.PetMapPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            
+            <renderers:CustomMap
+                x:Name="MapPet"
+                Grid.RowSpan="3" />
+            <BoxView
+                Grid.Row="1"
+                BackgroundColor="#0F1923" />
+            <StackLayout
+                Padding="10"
+                Grid.Row="1">
+                <Label
+                    x:Name="Name"
+                    TextColor="White"
+                    HorizontalOptions="Center" />
+                <Label
+                    x:Name="Gender"
+                    TextColor="White"
+                    HorizontalOptions="Center" />
+                <Label
+                    x:Name="DogBreed"
+                    TextColor="White"
+                    HorizontalOptions="Center" />
+                <Label
+                    x:Name="Comments"
+                    TextColor="White"
+                    HorizontalOptions="Center" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,1 @@
+D:\TestVSC\Examen 2\AppXamarinPets\AppXamarinPets\AppXamarinPets.UWP\AppXamarinPets.UWP.csproj;x86
